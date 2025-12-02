@@ -7,7 +7,7 @@ resource "aws_instance" "demo_ec2" {
   }
 }
 
-resource "aws_s3_bucket" "demo_bucket" {
+resource "aws_s3_bucket" "aws_s3_bucket" {
   bucket = var.bucket_name
   force_destroy = true
 }

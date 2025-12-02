@@ -8,6 +8,7 @@ variable "instance_type" {
   
 }
 
-variable "bucket_name" {
-  default = "First-aws-s3-bucket"
+variable "aws_s3_bucket" {
+  default = "myapp-dev-bucket"
+
 }
