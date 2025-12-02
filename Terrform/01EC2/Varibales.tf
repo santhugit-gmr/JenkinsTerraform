@@ -9,5 +9,5 @@ variable "instance_type" {
 }
 
 variable "bucket_name" {
-  default = "my-demo-tf-bucket-12345"
+  default = "First-aws-s3-bucket"
 }
