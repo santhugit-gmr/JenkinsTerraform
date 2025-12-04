@@ -9,6 +9,6 @@ variable "instance_type" {
 }
 
 variable "aws_s3_bucket" {
-  default = "myapp-dev-storage"
+  default = "myapp-dev-storage-santhosh"
 
 }
